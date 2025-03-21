@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalon Levi's Negro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            border-radius: 5px;
+        }
+        .price {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+        select, button {
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        button {
+            background: #000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Pantalon Levi's Negro</h2>
+        <img src="https://i.pinimg.com/736x/5d/1c/59/5d1c598ac62d7ba15996ec465436ac65.jpg" alt="Pantalon Levi's Negro">
+        <p class="price">$399 MXN</p>
+        <label for="size">Selecciona tu talla:</label>
+        <select id="size">
+            <option value="29/30">29/30</option>
+            <option value="30/30">30/30</option>
+            <option value="32/30">32/30</option>
+        </select>
+        <br>
+        <button>Comprar</button>
+    </div>
+</body>
+</html>
